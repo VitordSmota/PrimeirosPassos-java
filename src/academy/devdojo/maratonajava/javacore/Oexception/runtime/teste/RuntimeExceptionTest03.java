@@ -1,6 +1,8 @@
 package academy.devdojo.maratonajava.javacore.Oexception.runtime.teste;
 
 public class RuntimeExceptionTest03 {
+
+
     public static void main(String[] args) {
         abreConexao();
     }
@@ -23,6 +25,7 @@ public class RuntimeExceptionTest03 {
 
     private static void abreConexao2() {
         try{
+
             System.out.println("Abrindo o arquivo");
             System.out.println("Escrevendo dados no arquivo");
 
